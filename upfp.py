@@ -289,7 +289,7 @@ count1=0
 for x in n:        
     s=str(x)
     count1+=1
-print("total itemsets:",count1)
+#print("total itemsets:",count1)
 periods={}
 for i in transactions:
     for x,y in periodic.items():
